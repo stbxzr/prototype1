@@ -5,10 +5,10 @@ body {
 #headerStyle1 {
   color: rgb(255, 255, 255);
   text-align: center;
-  font-size: 50px;
+  font-size: 75px;
   font-weight: bolder;
   text-shadow: 3px 3px rgb(23, 123, 153);
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .contact-section {
@@ -22,6 +22,7 @@ body {
 .navbar-expand-lg,
 .navbar-light,
 .bg-light {
+  align-items: center;
   font-size: 25px;
   float: none;
   position: absolute;
@@ -30,15 +31,20 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.my_image {
+  width: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
 
-.section-about{
-  margin-left: 50px;
-  margin-top: 400px;
+}
+
+.section-about {
+  margin-top: 100px;
   border: 8px solid rgb(172, 14, 14);
-  box-sizing:content-box;
+  box-sizing: content-box;
   padding: auto;
-  
-
 }
 
 #AboutMe {
@@ -47,12 +53,11 @@ body {
   color: aliceblue;
   text-decoration: underline;
   margin-left: 20px;
-
 }
 
-#p1{
+#p1 {
   text-align: center;
-  font-style:initial;
+  font-style: initial;
   color: rgb(23, 123, 153);
   margin-left: 20px;
   font-size: x-large;
